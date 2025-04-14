@@ -117,7 +117,6 @@ dado MaxHeap::retiraRaiz() {
     return raiz;
 }
 
-
 void MaxHeap::insere(dado d){
     if(tamanho == capacidade) {
         cout << "Erro ao inserir" << endl;
